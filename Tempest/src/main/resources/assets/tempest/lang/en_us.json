@@ -1,0 +1,7 @@
+{
+  "itemGroup.tempest": "Tempest",
+  "block.tempest.anemometer": "Anemometer",
+  "block.tempest.weather_station": "Weather Station",
+  "block.tempest.tornado_siren": "Tornado Siren",
+  "entity.tempest.tornado": "Tornado"
+}

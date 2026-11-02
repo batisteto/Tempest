@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ " I ", "ISI", " P " ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "S": { "item": "minecraft:stick" },
+    "P": { "item": "minecraft:polished_andesite" }
+  },
+  "result": { "id": "tempest:anemometer", "count": 1 }
+}

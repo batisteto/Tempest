@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tempest:block/anemometer_top",
+    "side": "tempest:block/anemometer_side"
+  }
+}

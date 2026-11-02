@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#tempest:tornado_destructible_tier1",
+    "#minecraft:planks",
+    "#minecraft:logs",
+    "#minecraft:wooden_doors",
+    "#minecraft:wooden_trapdoors",
+    "minecraft:bookshelf"
+  ]
+}

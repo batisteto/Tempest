@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#tempest:tornado_destructible_tier0",
+    "#minecraft:wool",
+    "#minecraft:wooden_fences",
+    "#minecraft:banners",
+    "minecraft:glass",
+    "minecraft:glass_pane",
+    "minecraft:scaffolding",
+    "minecraft:hay_block"
+  ]
+}
