@@ -18,8 +18,7 @@ import net.neoforged.neoforge.common.NeoForge;
 
 /**
  * Tempest - realistic procedural weather for NeoForge 1.21.1.
- * Storm cells are simulated server-side (SavedData) and follow a real supercell-style
- * lifecycle (developing -> mature -> dissipating). Vanilla's own rain/thunder + lightning
+ * lifecycle (developing -> mature -> dissipating). I used Vanilla's own rain/thunder + lightning
  * systems are reused as the base layer; Tempest adds storm cells, wind, tornadoes,
  * volumetric-look cloud rendering and radar/anemometer/siren blocks on top.
  */
