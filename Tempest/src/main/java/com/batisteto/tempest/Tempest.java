@@ -10,6 +10,10 @@ import com.batisteto.tempest.registry.ModCreativeTabs;
 import com.batisteto.tempest.registry.ModEntities;
 import com.batisteto.tempest.registry.ModItems;
 import com.batisteto.tempest.registry.ModParticles;
+
+import com.mojang.logging.LogUtils;
+import org.slf4j.Logger;
+
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -19,12 +23,16 @@ import net.neoforged.neoforge.common.NeoForge;
 /**
  * Tempest - realistic procedural weather for NeoForge 1.21.1.
  * lifecycle (developing -> mature -> dissipating). I used Vanilla's own rain/thunder + lightning
+ * this is beta and there is alot of bugs,
  * systems are reused as the base layer; Tempest adds storm cells, wind, tornadoes,
- * volumetric-look cloud rendering and radar/anemometer/siren blocks on top.
+ * volumetric-look cloud rendering and radar/anemometer/siren blocks on top,
+ * Uses logging to detect, track, and diagnose bugs throughout the mod.
  */
 @Mod(Tempest.MODID)
 public class Tempest {
     public static final String MODID = "tempest";
+
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Tempest(IEventBus modEventBus, ModContainer modContainer) {
         ModBlocks.BLOCKS.register(modEventBus);
