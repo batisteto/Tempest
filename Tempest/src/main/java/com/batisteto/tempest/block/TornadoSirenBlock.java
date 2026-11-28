@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
-/** Standalone detector/alarm: sounds a horn and can be read via comparator-style proximity when a tornado nears. */
+/** Standalone detector/alarm: sounds a horn and can be read via comparator-style proximity when a tornado nears. I will be adding a real siren sound for 1.0.1. */
 public class TornadoSirenBlock extends BaseEntityBlock {
     private static final MapCodec<TornadoSirenBlock> CODEC = simpleCodec(TornadoSirenBlock::new);
 
